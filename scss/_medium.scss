@@ -1,0 +1,58 @@
+header h1 {
+    font-size: 1.3rem;
+}
+
+header {
+    display: flex;
+    align-items:center;
+    gap: 8px;
+    padding: 1rem $gutter;
+   div {
+    display: flex;
+    a {
+        position: absolute;
+        right: 15px; 
+    }
+   }
+   a.overMedium {
+    display: block;
+    font-weight: 700;
+   }
+   a.small {
+    display: none;
+   }     
+}
+
+#navWrapper {
+    background-color: #1c0495;
+    font-weight: $lightWeight;
+    ul {
+        color: white;
+        display: flex; 
+        justify-content: flex-start; 
+        padding-left: 1rem;
+        li {
+            padding: .7rem $gutter;
+            a{
+                padding: .5rem;
+                font-size: 1.3rem;
+                &:hover {
+                    color: #ffcc29;
+                }
+            }
+        } 
+        }
+}
+
+#navWrapper ul li a.active {
+    color: white;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    figure {
+        padding: .5rem;
+    }
+}
+

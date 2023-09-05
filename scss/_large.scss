@@ -1,0 +1,19 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+header {
+    display: flex;
+    align-items:center;
+    gap: 8px;
+    padding: 1rem $gutter;
+   div {
+    display: flex;
+    a {
+        position: absolute;
+        right: 20px; 
+    }
+   }
+
+}
